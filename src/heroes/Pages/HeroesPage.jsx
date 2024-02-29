@@ -11,7 +11,7 @@ export const HeroesPage = () => {
   const hero = useMemo( () => getHeroById( id ), [ id ] );
 
   const onReturn = () => {
-    navigate('/marvel');
+    navigate(-1);
   }
 
   if( !hero ){
