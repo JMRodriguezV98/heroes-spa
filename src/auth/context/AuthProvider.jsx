@@ -37,7 +37,6 @@ export const AuthProvider = ({ children }) => {
         
         const action = {
             type: types.logout,
-            payload: 'limpiar'
         }
         
         dispatch( action );
