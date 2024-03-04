@@ -24,7 +24,6 @@ export const AppRouter = () => {
           </PrivateRoute>
         }/>
 
-
       </Routes>
     </>
   )
